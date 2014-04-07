@@ -56,10 +56,10 @@ $(OBJS): $$*.tx $$(patsubst %.asm, %.tx, $$($$*_DEPENDENCIES))
 pokered.gbc: globals.tx $(RED_OBJS)
 	rgblink -n $*.sym -m $*.map -o $@ $(RED_OBJS)
 	rgbfix -jsv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON RED" $@
-	cmp baserom.gbc $@
+	# cmp baserom.gbc $@
 
 pokeblue.gbc: globals.tx $(BLUE_OBJS)
 	rgblink -n $*.sym -m $*.map -o $@ $(BLUE_OBJS)
 	rgbfix -jsv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON BLUE" $@
-	cmp blue.gbc $@
+	# cmp blue.gbc $@
 

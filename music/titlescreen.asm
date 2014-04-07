@@ -4,104 +4,40 @@ Music_TitleScreen_Ch1: ; 7e4c0 (1f:64c0)
 	vibrato 9, 3, 4
 	duty 3
 	notetype 12, 12, 1
-	octave 2
-	note E_, 1
-	note G_, 1
-	note B_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note G_, 4
-	note G_, 6
-	note G_, 1
-	note G_, 1
-	note G_, 4
-	note G_, 4
-	note G_, 4
-	notetype 8, 12, 1
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note F#, 2
-
+	; deleted all the code here, jump
+	; straight to niggas in paris
+	
 Music_TitleScreen_branch_7e4e2:
-	callchannel Music_TitleScreen_branch_7e541
-	callchannel Music_TitleScreen_branch_7e54a
-	callchannel Music_TitleScreen_branch_7e541
+	; loop niggas in paris
+	;callchannel Music_TitleScreen_branch_7e541
+	;callchannel Music_TitleScreen_branch_7e54a
+	;callchannel Music_TitleScreen_branch_7e541
 	octave 3
-	note C_, 8
-	notetype 8, 12, 6
-	note E_, 4
-	note E_, 4
-	note C_, 4
-	notetype 12, 12, 6
-	octave 2
-	note B_, 8
-	notetype 8, 14, 7
-	octave 3
-	note F_, 4
-	note E_, 4
-	note C_, 4
-	notetype 12, 14, 7
-	note D_, 10
-	notetype 12, 12, 6
-	octave 2
-	note B_, 2
-	octave 3
-	note C_, 2
-	note D_, 2
-	callchannel Music_TitleScreen_branch_7e541
-	callchannel Music_TitleScreen_branch_7e54a
-	callchannel Music_TitleScreen_branch_7e541
-	note C_, 6
-	note C_, 6
-	note E_, 4
-	note D_, 6
 	note F_, 2
-	note G_, 2
-	note D_, 4
-	note G_, 2
-	note G_, 6
-	note A_, 4
-	note F_, 2
-	note A_, 2
-	octave 4
 	note C_, 2
-	octave 3
-	note D_, 12
-	note E_, 4
-	note F_, 8
-	note G_, 4
-	note F_, 4
-	note E_, 12
-	note F_, 4
-	note G_, 8
-	notetype 12, 11, 6
+	note F_, 2
+	rest 3
+	note G#, 2
+	note C_, 2
+	note G#, 2
+	rest 3
+	note G_, 2
+	note C_, 2
+	note G_, 2
+	rest 3
+	note F_, 2
+	note C_, 2
 	octave 4
-	note C_, 4
-	note C#, 4
-	callchannel Music_TitleScreen_branch_7e55c
-	notetype 8, 11, 4
-	octave 4
-	note C_, 4
-	note C_, 4
-	note C#, 4
-	callchannel Music_TitleScreen_branch_7e55c
-	notetype 8, 11, 2
-	octave 3
-	note E_, 4
-	note E_, 4
-	note C#, 4
+	note C_, 1
+	rest 3
 	loopchannel 0, Music_TitleScreen_branch_7e4e2
 
 Music_TitleScreen_branch_7e541:
-	notetype 12, 12, 6
+	notetype 12, 12, 1
 	octave 3
 	note D_, 6
 	octave 2
-	note B_, 2
+	note A_, 2
 	octave 3
 	note D_, 8
 	endchannel

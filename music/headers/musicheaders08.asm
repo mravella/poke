@@ -9,10 +9,10 @@ Music_GymLeaderBattle: ; 202be (8:42be)
 Music_TrainerBattle: ; 202c7 (8:42c7)
 	db ( $80 | CH0 )
 	dw Music_TrainerBattle_Ch1
-	db CH1
-	dw Music_TrainerBattle_Ch2
-	db CH2
-	dw Music_TrainerBattle_Ch3
+	;db CH1
+	;dw Music_TrainerBattle_Ch2
+	;db CH2
+	;dw Music_TrainerBattle_Ch3
 
 Music_WildBattle: ; 202d0 (8:42d0)
 	db ( $80 | CH0 )

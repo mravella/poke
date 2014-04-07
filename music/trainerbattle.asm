@@ -1,651 +1,110 @@
 Music_TrainerBattle_Ch1: ; 22919 (8:6919)
-	tempo 0, 112
+	tempo 0, 144
 	stereopanning 119
+	vibrato 9, 3, 4
 	duty 3
-	vibrato 6, 3, 4
-	togglecall
-	notetype 12, 11, 2
-	rest 8
-	octave 3
-	note F_, 1
-	note E_, 1
-	note F_, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note D#, 1
-	note D_, 1
-	note D#, 1
-	note D_, 1
-	note C#, 1
-	note D_, 1
-	note C#, 1
-	note C_, 1
-	note C#, 1
-	note C_, 1
-	octave 2
-	note B_, 1
-	octave 3
-	note C_, 1
-	octave 2
-	note B_, 1
-	note A#, 1
-	note B_, 1
-	note A#, 1
-	note A_, 1
-	note A#, 1
-	octave 3
-	note D_, 6
-	note E_, 6
+	notetype 12, 12, 1
+	octave 4
 	note F_, 4
-	note D_, 2
-	note E_, 4
-	note F_, 6
-	note C_, 4
-	note D_, 6
-	note E_, 6
 	note F_, 4
-	note D_, 2
-	note E_, 4
-	note F_, 6
-	note C_, 2
-	note C#, 2
-	note D_, 6
-	note E_, 6
+	note F_, 2
+	note F_, 2
+	octave 3
 	note F_, 4
-	note D_, 2
-	note E_, 4
-	note F_, 6
-	note C_, 4
-	note D_, 6
-	note E_, 6
+	; clause
+	octave 4
+	note F_, 2
+	note F_, 2
 	note F_, 4
-	note D_, 2
-	note E_, 4
-	note F_, 6
-	note C_, 2
-	note C#, 2
-
-Music_TrainerBattle_branch_22962:
-	notetype 12, 11, 5
-	note D_, 2
-	note E_, 4
-	note C#, 2
-	note D_, 4
-	octave 2
-	note B_, 4
-	note F#, 4
+	note F_, 2
+	note F_, 2
 	octave 3
-	note E_, 2
-	note D_, 4
-	note C#, 2
-	note D_, 2
-	note E_, 2
-	note F_, 8
-	notetype 12, 11, 2
-	note C_, 1
-	note C#, 1
-	note D_, 1
-	note D#, 1
-	note E_, 1
-	note D#, 1
-	note D_, 1
-	note C_, 1
-	note C_, 1
-	note C#, 1
-	note D_, 1
-	note D#, 1
-	note E_, 1
-	note F_, 1
-	note F#, 1
-	note G_, 1
-	note G#, 1
-	note G_, 1
-	note F#, 1
-	note F_, 1
-	note E_, 1
-	note D#, 1
-	note D_, 1
-	note C_, 1
-	notetype 12, 11, 5
-	note D_, 2
-	note E_, 4
-	note C#, 2
-	note D_, 4
-	octave 2
-	note B_, 4
-	note F#, 4
-	octave 3
-	note E_, 2
-	note D_, 4
-	note C#, 2
-	octave 2
-	note B_, 2
-	octave 3
-	note C#, 2
-	notetype 12, 10, 7
-	note D_, 8
-	note C#, 8
-	octave 2
-	note B_, 8
-	octave 3
-	note C#, 8
-	notetype 12, 11, 5
-	note D_, 2
-	note C#, 2
-	octave 2
-	note B_, 2
-	note A_, 2
-	note G_, 2
-	rest 2
-	octave 3
-	note D_, 2
-	note C#, 2
-	octave 2
-	note B_, 2
-	note A_, 2
-	note G_, 2
-	rest 2
-	octave 3
-	note D_, 2
-	note C#, 2
-	octave 2
-	note B_, 2
-	octave 3
-	note C#, 2
-	note E_, 4
-	octave 2
-	note G_, 1
-	note A_, 1
-	note B_, 1
-	octave 3
-	note C#, 1
-	note D_, 4
-	octave 2
-	note F#, 1
-	note G_, 1
-	note A_, 1
-	note B_, 1
-	octave 3
-	note C#, 4
-	octave 2
-	note G_, 1
-	note A_, 1
-	note B_, 1
-	octave 3
-	note C#, 1
-	note D_, 4
-	octave 2
-	note F#, 1
-	note G_, 1
-	note A_, 1
-	note B_, 1
-	octave 3
-	note D_, 2
-	note C#, 2
-	octave 2
-	note B_, 2
-	note A_, 2
-	note G_, 2
-	rest 2
-	octave 3
-	note D_, 2
-	note C#, 2
-	octave 2
-	note B_, 2
-	note A_, 2
-	note B_, 2
-	note G_, 2
-	octave 3
-	note D_, 2
-	note E_, 2
-	note F#, 2
-	note G_, 2
-	note A_, 2
-	note B_, 2
-	note A_, 2
-	note G_, 2
-	note A_, 2
-	rest 2
-	note A_, 2
-	note B_, 2
-	note A_, 2
-	note G_, 2
-	note F#, 2
-	note G_, 2
-	note A_, 2
-	note E_, 2
-	note G_, 2
-	note F#, 2
-	octave 2
-	note B_, 1
-	octave 3
-	note C_, 1
-	note C#, 1
-	note D_, 1
-	note D#, 1
-	note E_, 1
-	note F_, 1
-	note F#, 1
-	note G_, 1
-	note G#, 1
-	note A_, 1
-	note A#, 1
-	note B_, 1
+	note F_, 4
 	octave 4
-	note C_, 1
-	note C#, 1
-	note D_, 1
-	note D#, 1
-	note D_, 1
-	note C#, 1
-	note C_, 1
+	note F_, 4
+	note F_, 4
+	note F_, 2
+	note F_, 2
 	octave 3
-	note B_, 1
-	note A#, 1
-	note A_, 1
-	note G#, 1
-	note G_, 1
-	note F#, 1
-	note F_, 1
-	note E_, 1
-	note D#, 1
-	note D_, 1
-	note C#, 1
-	note C_, 1
-	note C_, 1
-	note C#, 1
-	note D_, 1
-	note D#, 1
-	note E_, 1
-	note F_, 1
-	note F#, 1
-	note G_, 1
-	note G#, 1
-	note A_, 1
-	note A#, 1
-	note B_, 1
+	note F_, 4
 	octave 4
-	note C_, 1
-	note C#, 1
-	note D_, 1
-	note D#, 1
-	note E_, 1
-	note D#, 1
-	note D_, 1
-	note C#, 1
-	note C_, 1
+	note F_, 2
+	note F_, 2
+	note F_, 4
+	note F_, 2
+	note F_, 2
 	octave 3
-	note B_, 1
-	note A#, 1
-	note A_, 1
-	note G#, 1
-	note G_, 1
-	note F#, 1
-	note F_, 1
-	note E_, 1
-	note D#, 1
-	note D_, 1
-	note C#, 1
-	note C#, 1
-	note D_, 1
-	note D#, 1
-	note E_, 1
-	note F_, 1
-	note F#, 1
-	note G_, 1
-	note G#, 1
-	note A_, 1
-	note A#, 1
-	note B_, 1
-	octave 4
-	note C_, 1
-	note C#, 1
-	note D_, 1
-	note D#, 1
-	note E_, 1
-	note F_, 1
-	note E_, 1
-	note D#, 1
-	note D_, 1
-	note C#, 1
-	note C_, 1
-	octave 3
-	note B_, 1
-	note A#, 1
-	note A_, 1
-	note G#, 1
-	note G_, 1
-	note F#, 1
-	note F_, 1
-	note E_, 1
-	note D#, 1
-	note D_, 1
-	note D_, 1
-	note D#, 1
-	note E_, 1
-	note F_, 1
-	note F#, 1
-	note G_, 1
-	note G#, 1
-	note A_, 1
-	note A#, 1
-	note B_, 1
-	octave 4
-	note C_, 1
-	note C#, 1
-	note D_, 1
-	note D#, 1
-	note E_, 1
-	note F_, 1
-	note F#, 1
-	note F_, 1
-	note E_, 1
-	note D#, 1
-	note D_, 1
-	note C#, 1
-	note C_, 1
-	octave 3
-	note B_, 1
-	note A#, 1
-	note B_, 1
-	octave 4
-	note C_, 1
-	note C#, 1
-	note D_, 1
-	note D#, 1
-	note E_, 1
-	note F_, 1
-	octave 3
-	note A_, 4
-	octave 4
-	note D_, 4
-	octave 3
-	note A_, 2
-	note D_, 1
-	note E_, 1
-	note F#, 1
-	note G_, 1
-	note G#, 1
-	note A#, 1
-	note B_, 2
-	octave 4
-	note C_, 2
-	octave 3
-	note A_, 2
-	octave 4
-	note C_, 2
-	octave 3
-	note G_, 2
-	note B_, 2
+	note F_, 4
+	; clause
+	octave 1
+	note F_, 4
+	note F_, 4
+	note F_, 2
+	note F_, 2
+	note F_, 4
+	note F_, 2
+	note F_, 2
+	note F_, 4
 	note F_, 2
 	note G_, 2
-	note A_, 2
-	octave 4
-	note C_, 2
-	note D_, 2
-	rest 2
-	octave 3
-	note A_, 4
-	octave 4
-	note C_, 4
-	note D_, 2
-	octave 3
-	note F_, 1
-	note G_, 1
-	note A_, 1
-	note B_, 1
-	octave 4
-	note C_, 1
-	note D_, 1
-	note E_, 2
-	note F_, 2
-	note D_, 2
-	note F_, 2
-	note D_, 2
-	note F_, 2
-	note D_, 2
-	note F_, 2
-	note D_, 2
-	note F_, 2
-	note D_, 2
-	note F_, 2
-	note E_, 2
-	note F_, 2
-	note E_, 2
-	note F_, 2
-	note E_, 2
-	note F_, 2
-	note E_, 2
-	note F_, 2
-	note E_, 2
-	note F_, 2
-	note E_, 2
-	note F_, 2
-	note E_, 2
-	note F_, 2
-	note E_, 2
-	octave 3
-	note B_, 2
-	note C_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note E_, 2
-	note C_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note E_, 2
-	note C_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note E_, 2
-	note C_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note E_, 2
-	note C_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note C_, 2
-	note E_, 2
-	note D_, 2
-	octave 2
-	note A#, 2
-	octave 3
-	note F_, 2
-	note D_, 2
-	octave 2
-	note A#, 2
-	octave 3
-	note F_, 2
-	note D_, 2
-	octave 2
-	note A#, 2
-	octave 3
-	note F_, 2
-	note D_, 2
-	octave 2
-	note A#, 2
-	octave 3
-	note F_, 2
-	note D_, 2
-	octave 2
-	note A#, 2
-	octave 3
-	note D_, 2
-	note F_, 2
-	note C_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note E_, 2
-	note C_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note E_, 2
-	note C_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note E_, 2
-	note C_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note E_, 2
-	note C_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note C_, 2
-	note E_, 2
-	note D_, 2
-	octave 2
-	note A#, 2
-	octave 3
-	note F_, 2
-	note D_, 2
-	octave 2
-	note A#, 2
-	octave 3
-	note F_, 2
-	note D_, 2
-	octave 2
-	note A#, 2
-	octave 3
-	note F_, 2
-	note D_, 2
-	octave 2
-	note A#, 2
-	octave 3
-	note F_, 2
-	note D_, 2
-	octave 2
-	note A#, 2
-	octave 3
-	note D_, 2
-	note F_, 2
-	note D_, 16
-	note C_, 16
-	octave 2
-	note A#, 16
-	note G_, 12
-	octave 3
-	note D_, 1
-	note E_, 1
-	note G_, 1
-	octave 4
-	note C_, 1
-	note D_, 8
-	note F_, 8
-	octave 3
-	note A#, 8
-	octave 4
-	note C_, 8
-	note D_, 8
-	note E_, 8
-	note F_, 8
-	note G_, 8
-	note E_, 2
-	rest 4
-	note E_, 2
-	rest 4
-	note E_, 2
-	rest 2
-	note E_, 2
-	rest 4
-	note E_, 2
-	rest 4
-	note E_, 2
-	rest 2
-	note E_, 2
-	rest 4
-	note E_, 2
-	rest 4
-	note E_, 2
-	rest 2
-	note E_, 2
-	rest 4
-	note E_, 2
-	rest 4
-	note E_, 2
-	rest 2
-	octave 3
-	note C_, 2
-	note D_, 4
-	octave 2
-	note B_, 2
-	octave 3
-	note C#, 4
-	rest 2
-	note C#, 1
-	note D_, 1
-	note E_, 1
-	rest 1
-	note D_, 1
-	rest 1
-	octave 2
-	note B_, 1
-	rest 1
-	octave 3
-	note C#, 1
-	rest 9
-	note D_, 1
-	note D#, 1
-	note E_, 1
-	note F_, 1
-	note F_, 1
-	note E_, 1
-	note D#, 1
-	note D_, 1
-	note C#, 1
-	rest 5
-	note C#, 1
-	note D_, 1
-	note E_, 1
-	rest 1
-	note F_, 1
-	rest 1
-	note E_, 1
-	rest 1
-	note D_, 1
-	rest 1
-	note D_, 2
-	note E_, 2
-	note F_, 2
 	note G_, 2
-	note D#, 1
-	note E_, 1
-	note F_, 1
-	note F#, 1
-	note F#, 1
-	note F_, 1
-	note E_, 1
-	note D#, 1
-	note D_, 1
-	rest 9
-	note F#, 2
-	note E_, 4
-	note D#, 2
-	note E_, 2
-	note F#, 2
 	note G#, 2
-	note E_, 8
-	note F#, 8
-	note G_, 8
-	octave 4
-	note C_, 4
-	octave 3
-	note G_, 1
-	note G#, 1
-	note A_, 1
-	note A#, 1
+	note F_, 2
+	note F_, 2
+	note F_, 2
+	note C_, 2
+	note F_, 2
+	note F_, 2
+	note F_, 4
+	; 
+	note F_, 2
+	note F_, 2
+	note F_, 4
+	note F_, 2
+	note F#, 2
+	note F#, 2
+	note F_, 2
+	note F_, 4
+	note F_, 4
+	; 
+
+; main #SELFIE loop
+Music_TrainerBattle_branch_22962:
+	tempo 0, 144
+	stereopanning 119
+	vibrato 9, 3, 4
+	duty 3
+	notetype 12, 12, 1
+	octave 2
+	note F_, 4
+	note F_, 4
+	octave 0
+	note F_, 1
+	octave 2
+	note F_, 2
+	note F_, 2
+	note F_, 2
+	rest 2
+	note F_, 2
+	note F_, 2
+	note F_, 2
+	rest 2
+	note F_, 2
+	note G_, 2
+	note G_, 2
+	note G#, 2
+	note F_, 2
+	note F_, 2
+	note F_, 2
+	note C_, 2
+	note F_, 2
+	note F_, 2
+	note F_, 2
+	rest 2
+	note F_, 2
+	note G_, 2
+	note G_, 2
+	note F_, 2
 	loopchannel 0, Music_TrainerBattle_branch_22962
 
 
